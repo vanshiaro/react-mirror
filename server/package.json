@@ -1,0 +1,39 @@
+{
+  "name": "mirror-server",
+  "version": "0.0.1",
+  "description": "Server for the Magic Mirror",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm start & jest && npm stop",
+    "stop": "pkill app-server",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nas5w/react-mirror.git"
+  },
+  "keywords": [
+    "magic",
+    "mirror",
+    "node",
+    "express"
+  ],
+  "author": "nas5w",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nas5w/react-mirror/issues"
+  },
+  "homepage": "https://github.com/nas5w/react-mirror#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "jest": "23.6.0",
+    "supertest": "^3.4.0"
+  }
+}
