@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nas5w/react-mirror.git"
+    "url": "git+https://github.com/vanshiaro/react-mirror.git"
   },
   "keywords": [
     "magic",
@@ -19,12 +19,12 @@
     "node",
     "express"
   ],
-  "author": "nas5w",
+  "author": "vanshiaro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nas5w/react-mirror/issues"
+    "url": "https://github.com/vanshiaro/react-mirror/issues"
   },
-  "homepage": "https://github.com/nas5w/react-mirror#readme",
+  "homepage": "https://github.com/vanshiaro/react-mirror#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
